@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KM Style</title>
+</head>
+<body>
+    <!-- my title -->
+    <h1>Blog Posts</h1>
+    <!-- i created a list of blog posts -->
+    <ul>
+        {% for post in posts %}
+            <li>{{ post.title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
